@@ -6,8 +6,10 @@ public class Main {
 		Cartera cart = new Cartera();
 		Cliente c = new Cliente(cart);
 		Worker w = new Worker(cart);
+		
 		c.start();
 		w.start();
+		
 		
 	}
 
